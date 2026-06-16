@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 import Navigation from "./components/Navigation/Navigation";
+import HeroSection from './components/HeroSection/HeroSection';
+const Shop = () => {
 
-const Shop=()=>{
-   return (
-    <>
-    <Navigation />
+  return (
+    <> 
+      <Navigation />
+      <HeroSection />
     </>
-   
-   )
-   
+  )
 }
 
 export default Shop
