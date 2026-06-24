@@ -1,0 +1,17 @@
+package com.easybuy.easybuy_backend.auth.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class RegistrationResponse {
+
+    private int code;
+    private String message;
+
+}
