@@ -35,7 +35,7 @@ public class JWTTokenHelper {
     }
 
     private Key getSigningKey() {
-        byte[] keysBytes = Decoders.BASE64.decode(secretKey);
+        byte[] keysBytes = Decoders.BASE64URL.decode(secretKey);
         return Keys.hmacShaKeyFor(keysBytes);
     }
 

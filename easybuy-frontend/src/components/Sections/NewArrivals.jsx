@@ -3,7 +3,7 @@ import SectionHeading from './SectionsHeading/SectionHeading'
 import Card from '../Card/Card';
 import Jeans from '../../assets/img/jeans.jpg'
 import Shirts from '../../assets/img/shirts.jpg'
-import Tshirt from '../../assets/img/tshirt.jpg'
+import Tshirt from '../../assets/img/tshirts.jpeg'
 import dresses from '../../assets/img/dresses.jpg'
 import Carousel from 'react-multi-carousel';
 import { responsive } from '../../utils/Section.constants';

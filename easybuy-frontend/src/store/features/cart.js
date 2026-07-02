@@ -49,3 +49,4 @@ export const { addToCart, removeFromCart, updateQuantity, deleteCart } = cartSli
 export const countCartItems = (state) => state?.cartState?.cart?.length;
 export const selectCartItems = (state) => state?.cartState?.cart ?? []
 export default cartSlice.reducer;
+
